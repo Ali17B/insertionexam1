@@ -1,0 +1,25 @@
+Insertion Sort Adımları (Dizi: [22, 27, 16, 2, 18, 6]):
+1.	İlk eleman zaten sıralı kabul edilir: [22]
+2.	İkinci eleman 27, 22'den büyük olduğu için yerinde kalır: [22, 27]
+3.	Üçüncü eleman 16, 27'den küçük olduğu için yer değiştirir: [16, 22, 27]
+4.	Dördüncü eleman 2, hepsinden küçük olduğu için başa alınır: [2, 16, 22, 27]
+5.	Beşinci eleman 18, 22'den küçük ve 16'dan büyük olduğu için yerine yerleşir: [2, 16, 18, 22, 27]
+6.	Altıncı eleman 6, 16'dan küçük olduğu için yerine yerleşir: [2, 6, 16, 18, 22, 27]
+
+
+Insertion Sort'un Big-O Gösterimi:
+Insertion Sort’un en kötü durumdaki zaman karmaşıklığı O(n2)O(n^2)O(n2)'dir, çünkü her eleman için iç içe iki döngü çalışır.
+
+
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı dizide orta sıradadır. Bu nedenle:
+•	Average case'e girer: Aradığımız sayının ortada olması.
+
+
+Selection Sort Adımları (Dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]):
+1.	İlk adımda, en küçük eleman olan 2 bulunur ve ilk elemanla yer değiştirilir: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+2.	İkinci adımda, geri kalan elemanlar arasında en küçük olan 3 zaten yerindedir: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+3.	Üçüncü adımda, en küçük eleman olan 4 bulunur ve 5 ile yer değiştirilir: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+4.	Dördüncü adımda, en küçük eleman olan 5 bulunur ve 8 ile yer değiştirilir: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+Bu adımlarla Selection Sort işleminin ilk 4 adımı tamamlanmış olur.
+
